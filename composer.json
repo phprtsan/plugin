@@ -1,12 +1,18 @@
 {
-  "name": "devkabir/wordpress-plugin",
-  "description": "A simple oop structure in the singleton pattern for a WordPress plugin.",
-  "type": "project",
+  "name": "phprtisan/your-plugin-name",
+  "description": "A simple oop structure in the singleton pattern for a WordPress website.",
+  "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
+      "name": "PHP Artisan",
+      "homepage": "https://phprtsan.com",
+      "role": "Developer"
+    },
+    {
       "name": "Dev Kabir",
-      "email": "dev.kabir01@gmail.com"
+      "email": "dev.kabir01@gmail.com",
+      "role": "Developer"
     }
   ],
   "minimum-stability": "dev",
@@ -16,10 +22,11 @@
     "wp-coding-standards/wpcs": "^3.0"
   },
   "scripts": {
-    "lint": "phpcs src --standard=WordPress-Extra -s --report=source",
-    "format": "phpcbf src --standard=WordPress-Extra -s --report=source",
-    "post-create-project-cmd": [
-      "bash ./install.sh"
+    "lint": "phpcs ./ --extensions=php --standard=WordPress-Extra -s --report=source --colors",
+    "format": "phpcbf ./ --standard=WordPress-Extra -s --report=source --exclude=vendor/*",
+    "post-install-cmd": [
+      "bash ./install.sh",
+      "composer format"
     ]
   },
   "autoload": {

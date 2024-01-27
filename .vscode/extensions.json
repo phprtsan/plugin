@@ -1,10 +1,17 @@
 {
     "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "codeium.codeium",
         "usernamehw.errorlens",
-        "seatonjiang.gitmoji-vscode",
+        "yzhang.markdown-all-in-one",
         "devsense.phptools-vscode",
-        "blanc-frederic.vs-phpcompanion",
+        "jaguadoromero.vscode-php-create-class",
+        "tintrinh.php-refactor",
         "valeryanm.vscode-phpsab",
-        "tintrinh.php-refactor"
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "johnsoncodehk.vscode-tsconfig-helper",
+        "vue.vscode-typescript-vue-plugin",
+        "vue.volar"
     ]
 }

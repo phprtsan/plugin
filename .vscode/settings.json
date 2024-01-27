@@ -1,0 +1,26 @@
+{
+  "cSpell.words": ["phprtsan"],
+  "phpsab.executablePathCBF": "C:\\Users\\Dev\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcbf.bat",
+  "phpsab.executablePathCS": "C:\\Users\\Dev\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcs.bat",
+  "phpsab.standard": "WordPress-Extra",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "explorer.fileNesting.enabled": true,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "SpaceMono Nerd Font",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "[php]": {
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
